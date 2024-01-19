@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.converter{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.181);
+    gap: 2rem;
+    position: relative;
+}
+
+.swap{
+    height: 16%;
+    width: 16%;
+    position: absolute;
+    top:42%;
+    left: 42%;
+    background-color: blue;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+.convert{
+    background-color: white;
+    border-radius: 0.7rem;
+    padding:0.5rem 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}

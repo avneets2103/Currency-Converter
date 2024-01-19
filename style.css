@@ -1,0 +1,10 @@
+body{
+    background-image: url('public/background.jpg');
+    background-position: center;
+}
+
+#root{
+    background-color: rgba(150, 112, 47, 0.223); 
+    height: 100vh; 
+    width:100vw;
+}

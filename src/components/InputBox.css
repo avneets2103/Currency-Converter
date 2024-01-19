@@ -1,0 +1,24 @@
+.box{
+    font-size:larger;
+    background-color: rgba(43, 170, 234, 0.729);
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+input{
+    color: rgba(0, 0, 0, 0.758);
+    min-width: 250px;
+    height: 3rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+select{
+    color: white;
+    background-color: rgba(49, 43, 234, 0.737);
+    border-bottom-right-radius: 0.5rem;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.851);
+    font-weight: 500;
+}
